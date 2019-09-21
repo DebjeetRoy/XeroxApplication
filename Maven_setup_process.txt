@@ -1,0 +1,27 @@
+1)go to mvnrepository.com
+2)write mysqlconnector
+3)copy the maven dependencies
+4)and put <dependency> {copy maven dependency} </dependency>
+
+5)Go to E:\javaprogs\MavenProject\MySimpleExample
+6)mvn install -> build SUCCESS
+
+maven maintains a small repository in the system
+
+m2 is local reository
+
+> Maven downloads from central repository and copies it to local repsitory and if any other project requires it it goes to 
+local repository an dcopies from it. 
+
+
+>mvn validate - validates pomfile
+>mvn compile  - validates and compile and finally download the recmmended jars
+>mvn test     - test for Junit files
+>mvn package  - compiles -> tests -> creates JAR files
+
+
+>mvn install  - first validates pom.xml whether it is correct or not and repeats above steps
+                creates package and stores it in central repository
+>mvn deeploy  - maven repository
+
+
